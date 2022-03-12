@@ -1,0 +1,13 @@
+git checkout -b new_branch_to_merge_later
+echo "totally different content to merge later" > merge.txt
+git add .
+git commit -am"edited the content of merge.txt to cause a conflict"
+git checkout master
+
+git checkout main 
+Switched to branch 'main'
+echo "content to append" >> merge.txt
+git add .
+git commit -am"appended content to merge.txt"
+
+git merge new_branch_to_merge_later
