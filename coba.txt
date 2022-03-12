@@ -67,3 +67,6 @@ Mengurangi default rate pada bulan berikutnya
   <li>Latihan presentasi Final Project
   <li>Mempersiapkan kemungkinan pertanyaan pada saat presentasi
  </ol>
+
+ <ul>
+  <li>Final Presentation
