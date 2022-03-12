@@ -1,0 +1,69 @@
+## Report-Final-Project - Dataset Payment Default Prediction
+
+Data source : https://www.kaggle.com/reverie5/av-janata-hack-payment-default-prediction
+
+## Kelompok : Datarider
+## Nama Anggota :
+<ol>
+ <li>Tri Setiawan</li>
+ <li>Ulva Dewiyanti</li>
+ <li>Cristanto</li>
+ <li>Steven Benny</li>
+</ol>
+
+## Project Overview
+• Mencari insight dari dataset dengan Exploratory Data Analysis (EDA)
+• Melakukan data cleansing, data processing, data engineering untuk menyiapkan data sebelum modeling (Pre-Processing)
+• Membuat beberapa model prediksi terhadap dataset sehingga dataset menjadi bersih ketika digunakan untuk melatih model
+• Memberikan analisis rekomendasi/solusi dan keuntungan apa saja yang bisa diperoleh jika performa model yang kita bangun memuaskan.
+
+## Problem Statement
+   
+Jumlah customer pengguna layanan kartu kredit pada September 2005 sebanyak 21000 customer. Namun, 23% dari customer tersebut mengalami gagal bayar (default) pada September 2005.
+Sementara itu berdasarkan data FRED, default rate global dari tahun 1990 hingga 2005 berada dalam range 3% hingga 6,5%.
+
+## Goals
+Mengurangi default rate pada bulan berikutnya
+
+## Objective
+1. Melakukan analisis prediktif menggunakan machine learning untuk memprediksi debitur yang default pada bulan berikutnya
+2. Merekomendasikan strategi yang tepat untuk mengurangi default rate
+
+
+## Summary :
+<ul>
+ <li>STAGE 1 :</li>
+</ul>
+<ol>
+  <li>Menentukan untuk memilih mengurangi default rate pada goals</li>
+  <li>Menentukan bisnis metrics (support) untuk default rate</li>
+  <li>Menjabarkan insight setiap variable untuk explanatory</li>
+  <li>Mengexplore masing masing variabel</li>
+  <li>Menentukan apakah insightnya relate dengan default ratenya</li>
+ </ol>
+ 
+<ul>
+ <li>STAGE 2 :</li>
+</ul>
+<ol>
+  <li>Menentukan nilai yang belum terdefinisi</li>
+  <li>Menentukan bahwa datanya termasuk imbalance</li>
+  <li>Dari hasil yang didapat pada proses EDA dapat menambahkan insight</li>
+ </ol>
+ 
+ <ul>
+  <li>STAGE 3 :</li>
+ </ul>
+ <ol>
+   <li>Memilih AUC sebagai metric utama, dan Precision serta Recall sebagai secondary metric</li>
+   <li>Memilih model prediksi yang tepat yakni dari 4 Nilai metrik evaluasi dengan AUC terbesar, dipilih melalui metrix XGBoost yang telah dilakukan hyperparameter tuning yang menunjukkan AUC pada train sebesar 0.87 dan AUC pada test 0.85</li>
+  </ol>
+
+ <ul>
+  <li>STAGE 4 :</li>
+ </ul>
+ <ol>
+  <li>Membuat presentasi Final Project
+  <li>Latihan presentasi Final Project
+  <li>Mempersiapkan kemungkinan pertanyaan pada saat presentasi
+ </ol>
